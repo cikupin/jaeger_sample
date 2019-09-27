@@ -1,0 +1,11 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/go-chi/chi"
+  version = "4.0.2"
+
+[[constraint]]
+  name = "github.com/uber/jaeger-client-go"
+  version = "2.19.0"
